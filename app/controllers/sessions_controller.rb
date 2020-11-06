@@ -15,7 +15,7 @@
       if session[:name]
         session.delete :name
       end
-      redirect_to '/'
+      redirect_to '/login'
     end
 
   end
